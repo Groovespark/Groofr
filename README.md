@@ -4,5 +4,5 @@ Groofr is a minimalistic, lightweight and responsive web framework and is curren
 ## How to use it
 Just add the following tag to the head of your site and enjoy!   
 ```
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Groovespark/Groofr/master/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Groovespark/Groofr/master/css/main.css">
 ```
