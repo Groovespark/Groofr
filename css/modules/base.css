@@ -1,17 +1,12 @@
-/* line 3, ../../sass/modules/components.scss */
 a {
   text-decoration: none;
-  color: #999;
-}
+  color: #999; }
 
-/* line 21, ../../sass/modules/components.scss */
 input[type="submit"] {
   color: #FFF;
   max-width: 12.5rem;
-  width: auto;
-}
+  width: auto; }
 
-/* line 27, ../../sass/modules/components.scss */
 .btn {
   background-color: #000;
   border-color: #000;
@@ -21,9 +16,8 @@ input[type="submit"] {
   padding: 1.25rem 1.6875rem;
   font-size: 0.75rem;
   text-align: center;
-  vertical-align: middle;
-}
-/* line 37, ../../sass/modules/components.scss */
-.btn:hover {
-  background: #4D4D4D;
-}
+  vertical-align: middle; }
+  .btn:hover {
+    background: #4D4D4D; }
+
+/*# sourceMappingURL=base.css.map */

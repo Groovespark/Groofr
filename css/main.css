@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 5, ../sass/modules/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,58 +20,40 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 26, ../sass/modules/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
-/* line 30, ../sass/modules/reset.scss */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 33, ../sass/modules/reset.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 36, ../sass/modules/reset.scss */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
-/* line 39, ../sass/modules/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
-/* line 44, ../sass/modules/reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 3, ../sass/modules/components.scss */
 a {
   text-decoration: none;
-  color: #999;
-}
+  color: #999; }
 
-/* line 21, ../sass/modules/components.scss */
 input[type="submit"] {
   color: #FFF;
   max-width: 12.5rem;
-  width: auto;
-}
+  width: auto; }
 
-/* line 27, ../sass/modules/components.scss */
 .btn {
   background-color: #000;
   border-color: #000;
@@ -82,9 +63,8 @@ input[type="submit"] {
   padding: 1.25rem 1.6875rem;
   font-size: 0.75rem;
   text-align: center;
-  vertical-align: middle;
-}
-/* line 37, ../sass/modules/components.scss */
-.btn:hover {
-  background: #4D4D4D;
-}
+  vertical-align: middle; }
+  .btn:hover {
+    background: #4D4D4D; }
+
+/*# sourceMappingURL=main.css.map */
