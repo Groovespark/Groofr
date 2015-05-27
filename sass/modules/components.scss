@@ -17,3 +17,24 @@ div {
   
   }
 }
+
+input[type="submit"] {
+  color: $white;
+  max-width: 12.5rem;
+  width: auto;
+}
+
+.btn {
+  background-color: $black;
+  border-color: $black;
+  color: $white;
+  transition: background-color 150ms ease 0s, border-color 150ms ease 0s, color 150ms ease 0s;
+  border: 1px solid;
+  padding: 1.25rem 1.6875rem;
+  font-size: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+  &:hover {
+    background: $gray-hover;
+  }
+}
