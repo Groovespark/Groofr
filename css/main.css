@@ -58,3 +58,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 3, ../sass/modules/components.scss */
+a {
+  text-decoration: none;
+  color: #999;
+}
