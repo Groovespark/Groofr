@@ -1,5 +1,12 @@
 @import 'variables.scss';
 
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
 a {
   text-decoration: none;
   color: $gray;
