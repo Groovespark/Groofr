@@ -11,48 +11,37 @@
 
 	.container {
 		position: relative;
-		width: 960px;
+		width: 100%;
 
 		.column, .columns {
 			float: left;
 			display: inline;
+			padding: 20px 0;
 		}
 
 		/* Base grid */
 	    .one.column,
-   		.one.columns                     { width: 40px;  }
-    	.two.columns                     { width: 100px; }
-    	.three.columns                   { width: 160px; }
-    	.four.columns                    { width: 220px; }
-    	.five.columns                    { width: 280px; }
-    	.six.columns                     { width: 340px; }
-    	.seven.columns                   { width: 400px; }
-    	.eight.columns                   { width: 460px; }
-    	.nine.columns                    { width: 520px; }
-    	.ten.columns                     { width: 580px; }
-    	.eleven.columns                  { width: 640px; }
-    	.twelve.columns                  { width: 700px; }
-    	.thirteen.columns                { width: 760px; }
-    	.fourteen.columns                { width: 820px; }
-    	.fifteen.columns                 { width: 880px; }
-    	.sixteen.columns                 { width: 940px; }	
+   		.one.columns                     { width: 10%;  }
+    	.two.columns                     { width: 20%;  }
+    	.three.columns                   { width: 30%;  }
+    	.four.columns                    { width: 40%;  }
+    	.five.columns                    { width: 50%;  }
+    	.six.columns                     { width: 60%;  }
+    	.seven.columns                   { width: 70%;  }
+    	.eight.columns                   { width: 80%;  }
+    	.nine.columns                    { width: 90%;  }
+    	.ten.columns                     { width: 100%; }
 
     	/* Offsets */
-    	.offset-by-one                   { margin-left: 60px;  }
-    	.offset-by-two                   { margin-left: 120px; }
-    	.offset-by-three                 { margin-left: 180px; }
-    	.offset-by-four                  { margin-left: 240px; }
-    	.offset-by-five                  { margin-left: 300px; }
-    	.offset-by-six                   { margin-left: 360px; }
-    	.offset-by-seven                 { margin-left: 420px; }
-    	.offset-by-eight                 { margin-left: 480px; }
-    	.offset-by-nine                  { margin-left: 540px; }
-    	.offset-by-ten                   { margin-left: 600px; }
-    	.offset-by-eleven                { margin-left: 660px; }
-    	.offset-by-twelve                { margin-left: 720px; }
-    	.offset-by-thirteen              { margin-left: 780px; }
-    	.offset-by-fourteen              { margin-left: 840px; }
-    	.offset-by-fifteen               { margin-left: 900px; }
+    	.offset-by-one                   { margin-left: 10%; }
+    	.offset-by-two                   { margin-left: 20%; }
+    	.offset-by-three                 { margin-left: 30%; }
+    	.offset-by-four                  { margin-left: 40%; }
+    	.offset-by-five                  { margin-left: 50%; }
+    	.offset-by-six                   { margin-left: 60%; }
+    	.offset-by-seven                 { margin-left: 70%; }
+    	.offset-by-eight                 { margin-left: 80%; }
+    	.offset-by-nine                  { margin-left: 90%; }
 
 	}
 
@@ -64,42 +53,29 @@
 
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.container {
-			width: 768px;
 
 			.one.column,
-        	.one.columns                     { width: 28px;  }
-        	.two.columns                     { width: 76px;  }
-        	.three.columns                   { width: 124px; }
-        	.four.columns                    { width: 172px; }
-        	.five.columns                    { width: 220px; }
-        	.six.columns                     { width: 268px; }
-        	.seven.columns                   { width: 316px; }
-        	.eight.columns                   { width: 364px; }
-        	.nine.columns                    { width: 412px; }
-        	.ten.columns                     { width: 460px; }
-        	.eleven.columns                  { width: 508px; }
-        	.twelve.columns                  { width: 556px; }
-        	.thirteen.columns                { width: 604px; }
-        	.fourteen.columns                { width: 652px; }
-        	.fifteen.columns                 { width: 700px; }
-        	.sixteen.columns                 { width: 748px; }
+        	.one.columns                     { width: 20%;  }
+        	.two.columns                     { width: 40%;  }
+        	.three.columns                   { width: 60%; }
+        	.four.columns                    { width: 80%; }
+        	.five.columns,
+        	.six.columns,
+        	.seven.columns,
+        	.eight.columns,
+        	.nine.columns,
+        	.ten.columns                     { width: 100%; }
 
         	/* Offsets */
-        	.offset-by-one                   { margin-left: 48px;  }
-        	.offset-by-two                   { margin-left: 96px;  }
-        	.offset-by-three                 { margin-left: 144px; }
-        	.offset-by-four                  { margin-left: 192px; }
-        	.offset-by-five                  { margin-left: 240px; }
-        	.offset-by-six                   { margin-left: 288px; }
-        	.offset-by-seven                 { margin-left: 336px; }
-        	.offset-by-eight                 { margin-left: 384px; }
-        	.offset-by-nine                  { margin-left: 432px; }
-        	.offset-by-ten                   { margin-left: 480px; }
-        	.offset-by-eleven                { margin-left: 528px; }
-        	.offset-by-twelve                { margin-left: 576px; }
-        	.offset-by-thirteen              { margin-left: 624px; }
-        	.offset-by-fourteen              { margin-left: 672px; }
-        	.offset-by-fifteen               { margin-left: 720px; }
+	       	.offset-by-one                   { margin-left: 20%;  }
+        	.offset-by-two                   { margin-left: 40%;  }
+        	.offset-by-three                 { margin-left: 60%; }
+        	.offset-by-four                  { margin-left: 80%; }
+        	.offset-by-five,
+        	.offset-by-six,
+        	.offset-by-seven,
+        	.offset-by-eight,
+        	.offset-by-nine                  { margin-left: 0; }
 		}
 	}
 
