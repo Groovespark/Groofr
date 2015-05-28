@@ -171,9 +171,7 @@
     .container .thirteen.columns,
     .container .fourteen.columns,
     .container .fifteen.columns,
-    .container .sixteen.columns,
-    .container .one-third.column,
-    .container .two-thirds.column {
+    .container .sixteen.columns {
       width: 320px; }
     .container .offset-by-one,
     .container .offset-by-two,
@@ -213,9 +211,7 @@
     .container .thirteen.columns,
     .container .fourteen.columns,
     .container .fifteen.columns,
-    .container .sixteen.columns,
-    .container .one-third.column,
-    .container .two-thirds.column {
+    .container .sixteen.columns {
       width: 480px; } }
 
 /*# sourceMappingURL=grid.css.map */
