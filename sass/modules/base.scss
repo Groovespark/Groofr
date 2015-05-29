@@ -1,47 +1,158 @@
-@import 'variables.scss';
+/* Table of contents
+==================================================
+  -Imports
+  -Basic styles
+  -Typography
+  -Links
+  -Lists
+  -Buttons
+  -Forms
+  -Misc
+*/
 
-.clearfix:after { 
-   content: " ";
-   display: block; 
-   height: 0; 
-   clear: both;
+/* Imports
+================================================== */
+@import 'variables.scss';
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+/* Basic styles
+================================================== */
+body {
+  background: $gray-dark;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: $white-dark;
 }
 
+
+/* Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: $white;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+hr {
+  border: solid $gray;
+  border-width: 2px 0 0;
+}
+
+
+/* Links
+================================================== */
 a {
   text-decoration: none;
-  color: $gray;
+  color: $gray-light;
+
+  &:hover {
+    color: $white;
+    transition: color 300ms ease 0s;
+    -webkit-transition: color 300ms ease 0s;
+  }
+
   &.button {
     
   }
 }
 
-div {
-  &.wrapper {
-  
-  }
-  
-  &.header {
-  
-  }
+
+/* Lists
+================================================== */
+ul, ol {
+  margin-bottom: 20px;
 }
 
-input[type="submit"] {
-  color: $white;
-  max-width: 12.5rem;
-  width: auto;
+ul {
+  list-style: outside disc;
 }
 
-.btn {
-  background-color: $black;
-  border-color: $black;
-  color: $white;
-  transition: background-color 150ms ease 0s, border-color 150ms ease 0s, color 150ms ease 0s;
-  border: 1px solid;
+ol {
+  list-style: outside decimal;
+}
+
+
+/* Buttons
+================================================== */
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
   padding: 1.25rem 1.6875rem;
-  font-size: 0.75rem;
+  background-color: $black;
+  color: $white;
   text-align: center;
-  vertical-align: middle;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 350ms ease 0s;
+  -webkit-transition: background-color 350ms ease 0s;
+
   &:hover {
-    background: $gray-hover;
+    background-color: $black-light;
   }
+}
+
+
+/* Forms
+================================================== */
+input {
+  border: none;
+  padding: 1.25rem 1.6875rem;
+  font-size: 0.8rem;
+  background-color: $white-dark;
+
+  transition: background-color 150ms ease 0s;
+  -webkit-transition: background-color 150ms ease 0s;
+
+  &:focus {
+    background-color: $white;
+  }
+}
+
+
+/* Misc
+================================================== */
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
 }

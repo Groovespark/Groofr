@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,32 +46,134 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Black */
+/* Gray */
+/* White */
+/* Table of contents
+==================================================
+  -Imports
+  -Basic styles
+  -Typography
+  -Links
+  -Lists
+  -Buttons
+  -Forms
+  -Misc
+*/
+/* Imports
+================================================== */
+/* Black */
+/* Gray */
+/* White */
+/* Basic styles
+================================================== */
+body {
+  background: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #c0c0c0; }
+
+/* Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0; }
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  margin-bottom: 20px; }
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-bottom: 10px; }
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 5px; }
+
+h4 {
+  font-size: 1.4rem;
+  line-height: 1.6rem; }
+
+h5 {
+  font-size: 1.2rem;
+  line-height: 1.4rem; }
+
+h6 {
+  font-size: 0.8rem;
+  line-height: 1rem; }
+
+p {
+  margin: 0 0 20px 0; }
+
+hr {
+  border: solid #777;
+  border-width: 2px 0 0; }
+
+/* Links
+================================================== */
+a {
+  text-decoration: none;
+  color: #9f9f9f; }
+  a:hover {
+    color: #f0f0f0;
+    transition: color 300ms ease 0s;
+    -webkit-transition: color 300ms ease 0s; }
+
+/* Lists
+================================================== */
+ul, ol {
+  margin-bottom: 20px; }
+
+ul {
+  list-style: outside disc; }
+
+ol {
+  list-style: outside decimal; }
+
+/* Buttons
+================================================== */
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  padding: 1.25rem 1.6875rem;
+  background-color: #101010;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 350ms ease 0s;
+  -webkit-transition: background-color 350ms ease 0s; }
+  .btn:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover {
+    background-color: #303030; }
+
+/* Forms
+================================================== */
+input {
+  border: none;
+  padding: 1.25rem 1.6875rem;
+  font-size: 0.8rem;
+  background-color: #c0c0c0;
+  transition: background-color 150ms ease 0s;
+  -webkit-transition: background-color 150ms ease 0s; }
+  input:focus {
+    background-color: #f0f0f0; }
+
+/* Misc
+================================================== */
 .clearfix:after {
   content: " ";
   display: block;
   height: 0;
   clear: both; }
-
-a {
-  text-decoration: none;
-  color: #999; }
-
-input[type="submit"] {
-  color: #FFF;
-  max-width: 12.5rem;
-  width: auto; }
-
-.btn {
-  background-color: #000;
-  border-color: #000;
-  color: #FFF;
-  transition: background-color 150ms ease 0s, border-color 150ms ease 0s, color 150ms ease 0s;
-  border: 1px solid;
-  padding: 1.25rem 1.6875rem;
-  font-size: 0.75rem;
-  text-align: center;
-  vertical-align: middle; }
-  .btn:hover {
-    background: #4D4D4D; }
 
 /*# sourceMappingURL=main.css.map */
