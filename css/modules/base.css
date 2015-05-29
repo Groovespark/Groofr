@@ -78,10 +78,10 @@ ul, ol {
   margin-bottom: 20px; }
 
 ul {
-  list-style: outside disc; }
+  list-style: inside disc; }
 
 ol {
-  list-style: outside decimal; }
+  list-style: inside decimal; }
 
 /* Buttons
 ================================================== */
