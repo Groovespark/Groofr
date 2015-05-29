@@ -133,7 +133,19 @@ input[type="button"] {
 
 /* Forms
 ================================================== */
-input {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="range"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="datetime"],
+input[type="month"],
+input[type="week"], {
   border: none;
   padding: 1.25rem 1.6875rem;
   font-size: 0.8rem;
