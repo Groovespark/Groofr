@@ -18,15 +18,15 @@
 /* Basic styles
 ================================================== */
 body {
-  background: #757575;
+  background: #e0e0e0;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  color: #e0e0e0; }
+  color: #424242; }
 
 /* Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  color: #fafafa; }
+  color: #303030; }
 
 h1 {
   font-size: 2.4rem;
@@ -66,9 +66,9 @@ hr {
 ================================================== */
 a {
   text-decoration: none;
-  color: #bdbdbd; }
+  color: #9e9e9e; }
   a:hover {
-    color: #fafafa;
+    color: #757575;
     transition: color 300ms ease 0s;
     -webkit-transition: color 300ms ease 0s; }
 
@@ -93,13 +93,15 @@ input[type="button"] {
   border: none;
   display: inline-block;
   padding: 1.25rem 1rem;
-  background-color: #303030;
+  background-color: #424242;
   color: #fafafa;
   text-align: center;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: background-color 350ms ease 0s;
-  -webkit-transition: background-color 350ms ease 0s; }
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  transition: background-color 150ms ease 0s;
+  -webkit-transition: background-color 150ms ease 0s; }
   .btn:hover,
   button:hover,
   input[type="submit"]:hover,
@@ -123,9 +125,11 @@ input[type="datetime"],
 input[type="month"],
 input[type="week"] {
   border: none;
-  padding: 1.25rem 1rem;
-  font-size: 0.8rem;
-  background-color: #e0e0e0;
+  padding: 1rem 0.75rem;
+  background-color: #fafafa;
+  color: #757575;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
   transition: background-color 150ms ease 0s;
   -webkit-transition: background-color 150ms ease 0s; }
   input[type="text"]:focus,
@@ -141,7 +145,7 @@ input[type="week"] {
   input[type="datetime"]:focus,
   input[type="month"]:focus,
   input[type="week"]:focus {
-    background-color: #fafafa; }
+    border-bottom: 3px solid #bdbdbd; }
 
 /* Misc
 ================================================== */

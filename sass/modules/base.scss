@@ -19,17 +19,17 @@
 /* Basic styles
 ================================================== */
 body {
-  background: $gray-dark;
+  background: $white-darkest;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  color: $white-dark;
+  color: $black-light;
 }
 
 
 /* Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  color: $white;
+  color: $black;
 }
 
 h1 {
@@ -79,10 +79,10 @@ hr {
 ================================================== */
 a {
   text-decoration: none;
-  color: $gray-light;
+  color: $gray;
 
   &:hover {
-    color: $white;
+    color: $gray-dark;
     transition: color 300ms ease 0s;
     -webkit-transition: color 300ms ease 0s;
   }
@@ -118,13 +118,17 @@ input[type="button"] {
   border: none;
   display: inline-block;
   padding: 1.25rem 1rem;
-  background-color: $black;
+  background-color: $black-light;
   color: $white;
   text-align: center;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: background-color 350ms ease 0s;
-  -webkit-transition: background-color 350ms ease 0s;
+
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+
+  transition: background-color 150ms ease 0s;
+  -webkit-transition: background-color 150ms ease 0s;
 
   &:hover {
     background-color: $gray-dark;
@@ -148,15 +152,18 @@ input[type="datetime"],
 input[type="month"],
 input[type="week"], {
   border: none;
-  padding: 1.25rem 1rem; 
-  font-size: 0.8rem;
-  background-color: $white-dark;
+  padding: 1rem 0.75rem; 
+  background-color: $white;
+  color: $gray-dark;
+
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
 
   transition: background-color 150ms ease 0s;
   -webkit-transition: background-color 150ms ease 0s;
 
   &:focus {
-    background-color: $white;
+      border-bottom: 3px solid $gray-light;
   }
 }
 
