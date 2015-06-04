@@ -145,7 +145,7 @@ input[type="week"] {
   input[type="datetime"]:focus,
   input[type="month"]:focus,
   input[type="week"]:focus {
-    border-bottom: 3px solid #bdbdbd; }
+    border: none; }
 
 /* Misc
 ================================================== */

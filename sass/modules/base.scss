@@ -163,7 +163,7 @@ input[type="week"], {
   -webkit-transition: background-color 150ms ease 0s;
 
   &:focus {
-      border-bottom: 3px solid $gray-light;
+      border: none;
   }
 }
 
