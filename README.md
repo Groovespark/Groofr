@@ -4,5 +4,5 @@ Groofr is a minimalistic and lightweight framework for the web and is currently 
 ## How to use it
 Just add the following tag to the head of your site and enjoy!   
 ``` html
-<link rel="stylesheet" type="text/css" href="https://rawgit.com/Groovespark/Groofr/master/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Groovespark/Groofr@master/css/main.css">
 ```
